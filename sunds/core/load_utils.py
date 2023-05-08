@@ -103,7 +103,7 @@ def builder(
     )
     frame_builder = functools.partial(
         tfds.builder,
-        f'{builder_name}_frames',
+        f'{builder_name}_frames/msn_easy',
         **builder_kwargs,
     )
 
